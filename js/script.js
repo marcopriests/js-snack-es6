@@ -155,9 +155,19 @@ for (let i = 0; i < clubs.length; i++) {
     
 }
 
-console.log(clubs)
-
 //creo un nuovo array
 const newClubs = []
 
-//
+//pusho nel nuovo array nuovi ogetti contenenti solo nome e falliSubiti
+for (let i = 0; i < clubs.length; i++) {
+
+    let tempClub = clubs[i]
+
+    delete tempClub.puntiFatti
+
+    newClubs.push(tempClub)
+    
+}
+
+console.log(clubs)
+console.log(newClubs)
