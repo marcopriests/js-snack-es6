@@ -161,11 +161,9 @@ const newClubs = []
 //pusho nel nuovo array nuovi ogetti contenenti solo nome e falliSubiti
 for (let i = 0; i < clubs.length; i++) {
 
-    let tempClub = clubs[i]
+    const {nome, falliSubiti} = clubs[i]
 
-    delete tempClub.puntiFatti
-
-    newClubs.push(tempClub)
+    newClubs.push({nome, falliSubiti})   
     
 }
 
