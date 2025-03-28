@@ -143,3 +143,6 @@ const clubs = [
         falliSubiti: 0
     },
 ]
+
+//creo una funzione che mi generi numeri casuali tra 0 e 30
+const randomNum = (min, max) => Math.floor(Math.random() * 31)
