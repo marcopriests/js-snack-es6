@@ -157,3 +157,7 @@ for (let i = 0; i < clubs.length; i++) {
 
 console.log(clubs)
 
+//creo un nuovo array
+const newClubs = []
+
+//
