@@ -144,5 +144,16 @@ const clubs = [
     },
 ]
 
-//creo una funzione che mi generi numeri casuali tra 0 e 30
-const randomNum = (min, max) => Math.floor(Math.random() * 31)
+//creo una funzione che mi generi numeri casuali tra 0 e 90
+const randomNum = (min, max) => Math.floor(Math.random() * 91)
+
+//creo un for per andare ad assegnare numeri randomici ai valori di punti fatti e falli subiti
+for (let i = 0; i < clubs.length; i++) {
+
+    clubs[i].puntiFatti = randomNum()
+    clubs[i].falliSubiti = randomNum()
+    
+}
+
+console.log(clubs)
+
