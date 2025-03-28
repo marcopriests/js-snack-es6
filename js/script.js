@@ -38,3 +38,108 @@ for (let i = 0; i < bikes.length; i++) {
 console.log("La bici più leggera è la " + lightBike.name + " che pesa soltanto " + lightBike.weight + "kg!!!")
 
 
+//SNACK 2 ------------------------------------------------------------------------
+
+//creo l'array di ogetti
+const clubs = [
+    {
+        nome: "ATALANTA",
+        puntiFatti: 0,
+        falliSubiti: 0
+    },
+    {
+        nome: "BOLOGNA",
+        puntiFatti: 0,
+        falliSubiti: 0
+    },
+    {
+        nome: "CAGLIARI",
+        puntiFatti: 0,
+        falliSubiti: 0
+    },
+    {
+        nome: "COMO",
+        puntiFatti: 0,
+        falliSubiti: 0
+    },
+    {
+        nome: "EMPOLI",
+        puntiFatti: 0,
+        falliSubiti: 0
+    },
+    {
+        nome: "FIORENTINA",
+        puntiFatti: 0,
+        falliSubiti: 0
+    },
+    {
+        nome: "GENOA",
+        puntiFatti: 0,
+        falliSubiti: 0
+    },
+    {
+        nome: "HELLAS VERONA",
+        puntiFatti: 0,
+        falliSubiti: 0
+    },
+    {
+        nome: "INTER",
+        puntiFatti: 0,
+        falliSubiti: 0
+    },
+    {
+        nome: "JUVENTUS",
+        puntiFatti: 0,
+        falliSubiti: 0
+    },
+    {
+        nome: "LAZIO",
+        puntiFatti: 0,
+        falliSubiti: 0
+    },
+    {
+        nome: "LECCE",
+        puntiFatti: 0,
+        falliSubiti: 0
+    },
+    {
+        nome: "MILAN",
+        puntiFatti: 0,
+        falliSubiti: 0
+    },
+    {
+        nome: "MONZA",
+        puntiFatti: 0,
+        falliSubiti: 0
+    },
+    {
+        nome: "NAPOLI",
+        puntiFatti: 0,
+        falliSubiti: 0
+    },
+    {
+        nome: "PARMA",
+        puntiFatti: 0,
+        falliSubiti: 0
+    },
+    {
+        nome: "ROMA",
+        puntiFatti: 0,
+        falliSubiti: 0
+    },
+    {
+        nome: "TORINO",
+        puntiFatti: 0,
+        falliSubiti: 0
+    },
+    {
+        nome: "UDINESE",
+        puntiFatti: 0,
+        falliSubiti: 0
+    },
+    {
+        nome: "VENEZIA",
+        puntiFatti: 0,
+        falliSubiti: 0
+    },
+]
